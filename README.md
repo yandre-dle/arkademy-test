@@ -6,14 +6,38 @@ Berikut adalah jawaban dari soal seleksi arkademy bootcamp #2
 
 Soal 1 - 5 berada pada direktori :
 
-* [soal 1 s/d 5](https://github.com/tmfadhlul/arkademy-test/tree/master/code) - Menggunakan javascript;
+* [soal 1 s/d 5](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-1-5) - Menggunakan javascript;
 
-### Prerequisites
+### package.json
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+{
+  "name": "arkademy-test",
+  "version": "1.0.0",
+  "description": "Jawaban test seleksi bootcampt arckademy",
+  "scripts": {
+    "soal-1": "node soal-1.js",
+    "soal-2": "node soal-2.js",
+    "soal-3": "node soal-3.js",
+    "soal-4": "node soal-4.js",
+    "soal-5": "node soal-5.js",
+    "soal-6": "node soal-6.js",
+    "soal-7": "node soal-7.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmfadhlul/arkademy-test.git"
+  },
+  "author": "Teuku Fadhlul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmfadhlul/arkademy-test/issues"
+  },
+  "homepage": "https://github.com/tmfadhlul/arkademy-test#readme"
+}
 ```
 
 ### Installing
