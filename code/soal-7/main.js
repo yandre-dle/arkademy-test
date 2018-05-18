@@ -38,7 +38,7 @@ xhr.onload = function (e) {
         tableHead(data.columns)
         tableBody(data.values)
     })
-    console.log(hasil)
 }
+
 xhr.send();
 
