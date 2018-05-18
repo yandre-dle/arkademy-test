@@ -42,6 +42,7 @@ Soal 1 - 5 berada pada direktori :
 
 * [Direktory Jawaban](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-6) - beserta documentasi dan querry;
 
+### Querry
 ```
 sqlite3 (database_name);
 
