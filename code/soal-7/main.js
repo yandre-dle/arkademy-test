@@ -5,6 +5,8 @@ xhr.responseType = 'arraybuffer';
 let thead = document.getElementById('thead');
 let tbody = document.getElementById('tbody');
 
+// loop tabble head untuk setiap collumn
+
 const tableHead = (input) => {
     input.forEach(element => {
         let th = document.createElement('th')
@@ -14,6 +16,8 @@ const tableHead = (input) => {
         thead.appendChild(th);
     });
 }
+
+// loop table Body dan value didalamnya
 
 const tableBody = (input) => {
     input.forEach((data) => {

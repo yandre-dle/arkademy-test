@@ -34,14 +34,11 @@ CREATE TABLE comments (
 
 INSERT INTO users (username) VALUES ("Hesa Suryana");
 INSERT INTO posts (title, content, createdBy) VALUES ("Berita MotoGP", "Marquez tercepat di FP 1 MotoGP Prancis", 1); 
-
-------------------------------lihat /doc/doc_3.png------------------------------
-
 INSERT INTO comments (comment, postId) VALUES ("ah masa", 1);
 INSERT INTO comments (comment, postId) VALUES ("serius?", 1);
 INSERT INTO comments (comment, postId) VALUES ("bonbin mana?", 1);
 
-------------------------------lihat /doc/doc_4.png------------------------------
+------------------------------lihat /doc/doc_3.png------------------------------
 
 
 
