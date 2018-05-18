@@ -95,13 +95,17 @@ Give an example
 ## Soal Nomor 7
 
 Request data dari data.db yang dibuat pada soal nomor 6 :
-* [Arkademy Test](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-7) - run "node index.js" untuk menjalankan website di port: 8000
+* [Arkademy Test](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-7) - run "node index.js" untuk menjalankan website di port: 8000;
 
+## Installasi
+* [Install node js](https://nodejs.org/en/download/) -
+* Install required library
+    ```
+    npm init
+    ```
 ## Built With
+* [sql.js](https://github.com/kripken/sql.js/tree/master/js) - 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
