@@ -1,4 +1,20 @@
 const Obj = (name, address, hobbies, is_married, highSchool, university, professional, basic) => {
+    let object = {
+        name,
+        address,
+        hobbies,
+        is_married,
+        school: {
+            highSchool,
+            university
+        },
+        skill: [{
+            professional
+        },
+        {
+            basic
+        }]
+    };
 
     const arrayError = [];
 
@@ -31,24 +47,7 @@ const Obj = (name, address, hobbies, is_married, highSchool, university, profess
         return JSON.stringify({ arrayError });
     }
 
-    return {
-        name,
-        address,
-        hobbies,
-        is_married,
-        school: {
-            highSchool,
-            university
-        },
-        skill: [{
-            professional
-        },
-        {
-            basic
-        }]
-    }
+    return JSON.stringify(object)
 }
 
-let json = JSON.stringify(Obj("TM Fadhlul Mardhatillah", "Jalan Caman Raya No.25 A, Jatibening, Pondokgede, Kota Bekasi", ["membaca", "menulis"], false, "SMAN 4 BANDA ACEH", "-", "Photoshop, Premiere Pro & After Effect", "Javascript"))
-
-console.log(json)
+console.log(Obj("TM Fadhlul Mardhatillah", "Jalan Caman Raya No.25 A, Jatibening, Pondokgede, Kota Bekasi", ["membaca", "menulis"], false, "SMAN 4 BANDA ACEH", "-", "Photoshop, Premiere Pro & After Effect", "Javascript"))
