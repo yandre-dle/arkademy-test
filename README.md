@@ -92,7 +92,7 @@ Request data dari data.db yang dibuat pada soal nomor 6 :
     node index.js
     ```
 ### Built With
-* [sql.js](https://github.com/kripken/sql.js/tree/master/js) - SQLite compiled to JavaScript through Emscripten 
+* [Kripken sql.js](https://github.com/kripken/sql.js/tree/master/js) - SQLite compiled to JavaScript through Emscripten 
 * [express](https://expressjs.com/) - Node.js web application framework
 
 ## Authors
