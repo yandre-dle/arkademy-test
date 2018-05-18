@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Jawaban test seleksi bootcampt arckademy",
   "scripts": {
-    "myBiodata": "node myBiodata.js",
+    "soal-1": "node soal-1.js",
+    "soal-2": "node soal-2.js",
+    "soal-3": "node soal-3.js",
+    "soal-4": "node soal-4.js",
+    "soal-5": "node soal-5.js",
+    "soal-6": "node soal-6.js",
+    "soal-7": "node soal-7.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
