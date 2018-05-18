@@ -75,30 +75,13 @@ INSERT INTO comments (comment, postId) VALUES ("ah masa", 1);
 INSERT INTO comments (comment, postId) VALUES ("serius?", 1);
 INSERT INTO comments (comment, postId) VALUES ("bonbin mana?", 1);
 ```
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Soal Nomor 7
 
 Request data dari data.db yang dibuat pada soal nomor 6 :
-* [Arkademy Test](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-7) - run "node index.js" untuk menjalankan website di port: 8000;
+* [Arkademy Test](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-7) - website akan berjalan di port: 8000;
 
-## Installasi
-* [Install node js](https://nodejs.org/en/download/) -
+### Installasi
+* [Install node js](https://nodejs.org/en/download/) - Untuk Local Server
 * Install required library
     ```
     npm init
@@ -108,31 +91,12 @@ Request data dari data.db yang dibuat pada soal nomor 6 :
     ```
     node index.js
     ```
-## Built With
-* [sql.js](https://github.com/kripken/sql.js/tree/master/js) - 
-
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+### Built With
+* [sql.js](https://github.com/kripken/sql.js/tree/master/js) - SQLite compiled to JavaScript through Emscripten 
+* [express](https://expressjs.com/) - Node.js web application framework
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Teuku Fadhlul** - Dibuat untuk seleksi Arkademy #2
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
