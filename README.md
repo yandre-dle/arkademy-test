@@ -4,7 +4,7 @@ Berikut adalah jawaban dari soal seleksi arkademy bootcamp #2
 
 ## Soal Nomor 1 s/d 5
 
-Soal 1 - 5 berada pada direktori :
+Directory Soal 1 - 5 :
 
 * [soal 1 s/d 5](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-1-5) - Menggunakan javascript;
 
@@ -39,8 +39,8 @@ Soal 1 - 5 berada pada direktori :
 ```
 
 ## Soal Nomor 6
-
-* [Direktory Jawaban](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-6) - beserta documentasi dan querry;
+Directory Soal 6 :
+* [SQLITE](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-6) - beserta documentasi dan querry;
 
 ### Querry
 ```
@@ -92,9 +92,10 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
+## Soal Nomor 7
 
-Add additional notes about how to deploy this on a live system
+Request data dari data.db yang dibuat pada soal nomor 6 :
+* [Arkademy Test](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-7) - run "node index.js" untuk menjalankan website di port: 8000
 
 ## Built With
 
