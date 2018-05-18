@@ -2,15 +2,13 @@
 
 Berikut adalah jawaban dari soal seleksi arkademy bootcamp #2
 
-## Soal 1 s/d 5
+## Soal Nomor 1 s/d 5
 
 Soal 1 - 5 berada pada direktori :
 
 * [soal 1 s/d 5](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-1-5) - Menggunakan javascript;
 
 ### package.json
-
-What things you need to install the software and how to install them
 
 ```
 {
@@ -40,27 +38,42 @@ What things you need to install the software and how to install them
 }
 ```
 
-### Installing
+## Soal Nomor 6
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+* [Direktory Jawaban](https://github.com/tmfadhlul/arkademy-test/tree/master/code/soal-6) - beserta documentasi dan querry;
 
 ```
-Give the example
+sqlite3 (database_name);
+
+CREATE TABLE users (
+                id INTEGER,
+                username STRING,
+                CONSTRAINT users_PK PRIMARY KEY (id)
+);
+
+CREATE TABLE posts (
+                id INTEGER,
+                title STRING,
+                content STRING,
+                createdBy INTEGER,
+                CONSTRAINT posts_PK PRIMARY KEY (id),
+                CONSTRAINT posts_users_FK FOREIGN KEY (createdBy) REFERENCES users(id)
+);
+
+CREATE TABLE comments (
+                id INTEGER,
+                comment STRING,
+                postId INTEGER,
+                CONSTRAINT comments_PK PRIMARY KEY (id),
+                CONSTRAINT comments_posts_FK FOREIGN KEY (postId) REFERENCES posts(id)
+);
+
+INSERT INTO users (username) VALUES ("Teuku Fadhlul");
+INSERT INTO posts (title, content, createdBy) VALUES ("Berita MotoGP", "Marquez tercepat di FP 1 MotoGP Prancis", 1); 
+INSERT INTO comments (comment, postId) VALUES ("ah masa", 1);
+INSERT INTO comments (comment, postId) VALUES ("serius?", 1);
+INSERT INTO comments (comment, postId) VALUES ("bonbin mana?", 1);
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
