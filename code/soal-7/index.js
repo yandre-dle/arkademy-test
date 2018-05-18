@@ -5,4 +5,4 @@ var server = express();
 server.use('/', express.static(__dirname + '/'));
 
 //Jalan di port 9000
-server.listen(9000);
+server.listen(8080);

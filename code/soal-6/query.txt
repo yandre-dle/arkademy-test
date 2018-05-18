@@ -1,0 +1,50 @@
+Install SQLITE
+
+1. Buka directory SQLITE dengan CMD.
+2. Query SQL : 
+
+sqlite3 (database_name);
+
+------------------------------lihat /doc/doc_1.png------------------------------
+
+CREATE TABLE users (
+                id INTEGER,
+                username STRING,
+                CONSTRAINT users_PK PRIMARY KEY (id)
+);
+
+CREATE TABLE posts (
+                id INTEGER,
+                title STRING,
+                content STRING,
+                createdBy INTEGER,
+                CONSTRAINT posts_PK PRIMARY KEY (id),
+                CONSTRAINT posts_users_FK FOREIGN KEY (createdBy) REFERENCES users(id)
+);
+
+CREATE TABLE comments (
+                id INTEGER,
+                comment STRING,
+                postId INTEGER,
+                CONSTRAINT comments_PK PRIMARY KEY (id),
+                CONSTRAINT comments_posts_FK FOREIGN KEY (postId) REFERENCES posts(id)
+);
+
+------------------------------lihat /doc/doc_2.png------------------------------
+
+INSERT INTO users (username) VALUES ("Hesa Suryana");
+INSERT INTO posts (title, content, createdBy) VALUES ("Berita MotoGP", "Marquez tercepat di FP 1 MotoGP Prancis", 1); 
+
+------------------------------lihat /doc/doc_3.png------------------------------
+
+INSERT INTO comments (comment, postId) VALUES ("ah masa", 1);
+INSERT INTO comments (comment, postId) VALUES ("serius?", 1);
+INSERT INTO comments (comment, postId) VALUES ("bonbin mana?", 1);
+
+------------------------------lihat /doc/doc_4.png------------------------------
+
+
+
+
+
+
