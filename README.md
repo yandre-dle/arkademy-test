@@ -2,11 +2,11 @@
 
 Berikut adalah jawaban dari soal seleksi arkademy bootcamp #2
 
-# Soal 1 s/d 5
+## Soal 1 s/d 5
 
 Soal 1 - 5 berada pada direktori :
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [soal 1 s/d 5](https://github.com/tmfadhlul/arkademy-test/tree/master/code) - Menggunakan javascript;
 
 ### Prerequisites
 
