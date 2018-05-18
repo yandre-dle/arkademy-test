@@ -1,34 +1,34 @@
-const Obj = (name, address, hobbies, is_married, highSchool, university, professional,basic) => {
+const Obj = (name, address, hobbies, is_married, highSchool, university, professional, basic) => {
 
     const arrayError = [];
 
-    if (!(typeof name === 'string')){
+    if (!(typeof name === 'string')) {
         arrayError.push('Nama bukan tipe String')
     }
-    if (!(typeof address === 'string')){
+    if (!(typeof address === 'string')) {
         arrayError.push('Address bukan tipe String')
     }
-    if (!(Array.isArray(hobbies))){
+    if (!(Array.isArray(hobbies))) {
         arrayError.push('Hobbies bukan tipe array')
     }
-    if (!(typeof is_married === 'boolean')){
+    if (!(typeof is_married === 'boolean')) {
         arrayError.push('is_married bukan tipe String')
     }
-    if (!(typeof highSchool === 'string')){
+    if (!(typeof highSchool === 'string')) {
         arrayError.push('High School bukan tipe String')
     }
-    if (!(typeof university === 'string')){
+    if (!(typeof university === 'string')) {
         arrayError.push('university bukan tipe String')
     }
-    if (!(typeof professional === 'string')){
+    if (!(typeof professional === 'string')) {
         arrayError.push('university bukan tipe String')
     }
-    if (!(typeof basic === 'string')){
+    if (!(typeof basic === 'string')) {
         arrayError.push('university bukan tipe String')
     }
 
-    if (arrayError.length !== 0){
-        return JSON.stringify({arrayError});
+    if (arrayError.length !== 0) {
+        return JSON.stringify({ arrayError });
     }
 
     return {
@@ -36,9 +36,9 @@ const Obj = (name, address, hobbies, is_married, highSchool, university, profess
         address,
         hobbies,
         is_married,
-        school : {
+        school: {
             highSchool,
-            university 
+            university
         },
         skill: [{
             professional
@@ -49,4 +49,6 @@ const Obj = (name, address, hobbies, is_married, highSchool, university, profess
     }
 }
 
-console.log(Obj("TM Fadhlul Mardhatillah", "Jalan Caman Raya No.25 A, Jatibening, Pondokgede, Kota Bekasi", ["membaca", "menulis"], false, "SMAN 4 BANDA ACEH", "-", "Photoshop, Premiere Pro & After Effect", "Javascript"))
+let json = JSON.stringify(Obj("TM Fadhlul Mardhatillah", "Jalan Caman Raya No.25 A, Jatibening, Pondokgede, Kota Bekasi", ["membaca", "menulis"], false, "SMAN 4 BANDA ACEH", "-", "Photoshop, Premiere Pro & After Effect", "Javascript"))
+
+console.log(json)
