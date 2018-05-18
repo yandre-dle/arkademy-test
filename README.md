@@ -102,6 +102,11 @@ Request data dari data.db yang dibuat pada soal nomor 6 :
 * Install required library
     ```
     npm init
+    npm install express;
+    ```
+* Jalankan server dengan
+    ```
+    node index.js
     ```
 ## Built With
 * [sql.js](https://github.com/kripken/sql.js/tree/master/js) - 
