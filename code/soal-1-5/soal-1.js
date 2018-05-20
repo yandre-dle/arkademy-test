@@ -37,10 +37,10 @@ const Obj = (name, address, hobbies, is_married, highSchool, university, profess
         arrayError.push('university bukan tipe String')
     }
     if (!(typeof professional === 'string')) {
-        arrayError.push('university bukan tipe String')
+        arrayError.push('skill professional bukan tipe String')
     }
     if (!(typeof basic === 'string')) {
-        arrayError.push('university bukan tipe String')
+        arrayError.push('skill basic bukan tipe String')
     }
 
     if (arrayError.length !== 0) {
